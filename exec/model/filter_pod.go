@@ -30,7 +30,7 @@ import (
 	"github.com/chaosblade-io/chaosblade-spec-go/spec"
 	pkglabels "k8s.io/apimachinery/pkg/labels"
 
-	"github.com/chaosblade-io/chaosblade-operator/channel"
+	"github.com/deepsola/chaosblade-operator/channel"
 )
 
 const DefaultNamespace = "default"

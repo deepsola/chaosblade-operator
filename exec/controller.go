@@ -24,12 +24,12 @@ import (
 
 	"github.com/chaosblade-io/chaosblade-spec-go/spec"
 
-	"github.com/chaosblade-io/chaosblade-operator/channel"
-	"github.com/chaosblade-io/chaosblade-operator/exec/container"
-	"github.com/chaosblade-io/chaosblade-operator/exec/model"
-	"github.com/chaosblade-io/chaosblade-operator/exec/node"
-	"github.com/chaosblade-io/chaosblade-operator/exec/pod"
-	"github.com/chaosblade-io/chaosblade-operator/pkg/apis/chaosblade/v1alpha1"
+	"github.com/deepsola/chaosblade-operator/channel"
+	"github.com/deepsola/chaosblade-operator/exec/container"
+	"github.com/deepsola/chaosblade-operator/exec/model"
+	"github.com/deepsola/chaosblade-operator/exec/node"
+	"github.com/deepsola/chaosblade-operator/exec/pod"
+	"github.com/deepsola/chaosblade-operator/pkg/apis/chaosblade/v1alpha1"
 )
 
 // ResourceDispatchedController contains all resource controllers exclude node resource

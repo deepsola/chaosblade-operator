@@ -29,11 +29,11 @@ import (
 
 	"github.com/chaosblade-io/chaosblade-spec-go/spec"
 
-	"github.com/chaosblade-io/chaosblade-operator/channel"
-	"github.com/chaosblade-io/chaosblade-operator/exec/model"
-	"github.com/chaosblade-io/chaosblade-operator/pkg/apis/chaosblade/v1alpha1"
-	chaosfs "github.com/chaosblade-io/chaosblade-operator/pkg/hookfs"
-	webhook "github.com/chaosblade-io/chaosblade-operator/pkg/webhook/pod"
+	"github.com/deepsola/chaosblade-operator/channel"
+	"github.com/deepsola/chaosblade-operator/exec/model"
+	"github.com/deepsola/chaosblade-operator/pkg/apis/chaosblade/v1alpha1"
+	chaosfs "github.com/deepsola/chaosblade-operator/pkg/hookfs"
+	webhook "github.com/deepsola/chaosblade-operator/pkg/webhook/pod"
 )
 
 type PodIOActionSpec struct {

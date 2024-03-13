@@ -18,16 +18,16 @@ package pod
 
 import (
 	"context"
-	"github.com/chaosblade-io/chaosblade-exec-cri/exec/container"
+	"github.com/deepsola/chaosblade-exec-cri/exec/container"
 
 	"github.com/sirupsen/logrus"
 	v1 "k8s.io/api/core/v1"
 
 	"github.com/chaosblade-io/chaosblade-spec-go/spec"
 
-	"github.com/chaosblade-io/chaosblade-operator/channel"
-	"github.com/chaosblade-io/chaosblade-operator/exec/model"
-	"github.com/chaosblade-io/chaosblade-operator/pkg/apis/chaosblade/v1alpha1"
+	"github.com/deepsola/chaosblade-operator/channel"
+	"github.com/deepsola/chaosblade-operator/exec/model"
+	"github.com/deepsola/chaosblade-operator/pkg/apis/chaosblade/v1alpha1"
 )
 
 type ExpController struct {

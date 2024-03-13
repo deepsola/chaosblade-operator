@@ -17,10 +17,10 @@
 package model
 
 import (
-	"github.com/chaosblade-io/chaosblade-exec-cri/exec"
 	"github.com/chaosblade-io/chaosblade-spec-go/spec"
+	"github.com/deepsola/chaosblade-exec-cri/exec"
 
-	"github.com/chaosblade-io/chaosblade-operator/channel"
+	"github.com/deepsola/chaosblade-operator/channel"
 )
 
 // ResourceExpModelSpec contains node, pod, container

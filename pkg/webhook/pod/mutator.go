@@ -29,8 +29,8 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/client"
 	"sigs.k8s.io/controller-runtime/pkg/webhook/admission"
 
-	"github.com/chaosblade-io/chaosblade-operator/pkg/runtime/chaosblade"
-	"github.com/chaosblade-io/chaosblade-operator/version"
+	"github.com/deepsola/chaosblade-operator/pkg/runtime/chaosblade"
+	"github.com/deepsola/chaosblade-operator/version"
 )
 
 var (

@@ -17,7 +17,7 @@
 package controller
 
 import (
-	"github.com/chaosblade-io/chaosblade-operator/pkg/controller/chaosblade"
+	"github.com/deepsola/chaosblade-operator/pkg/controller/chaosblade"
 )
 
 func init() {

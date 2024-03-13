@@ -26,9 +26,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/chaosblade-io/chaosblade-exec-cri/exec"
-	"github.com/chaosblade-io/chaosblade-exec-cri/exec/container"
 	"github.com/chaosblade-io/chaosblade-spec-go/util"
+	"github.com/deepsola/chaosblade-exec-cri/exec"
+	"github.com/deepsola/chaosblade-exec-cri/exec/container"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/types"
 
@@ -38,9 +38,9 @@ import (
 	pkglabels "k8s.io/apimachinery/pkg/labels"
 	cli "sigs.k8s.io/controller-runtime/pkg/client"
 
-	"github.com/chaosblade-io/chaosblade-operator/channel"
-	"github.com/chaosblade-io/chaosblade-operator/pkg/apis/chaosblade/v1alpha1"
-	"github.com/chaosblade-io/chaosblade-operator/pkg/runtime/chaosblade"
+	"github.com/deepsola/chaosblade-operator/channel"
+	"github.com/deepsola/chaosblade-operator/pkg/apis/chaosblade/v1alpha1"
+	"github.com/deepsola/chaosblade-operator/pkg/runtime/chaosblade"
 )
 
 func checkExperimentStatus(ctx context.Context, expModel *spec.ExpModel, statuses []v1alpha1.ResourceStatus, identifiers []ExperimentIdentifierInPod, client *channel.Client) {
